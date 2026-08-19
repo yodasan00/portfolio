@@ -1,0 +1,33 @@
+﻿Yaad Gurung
+(+91) 62952-10916 | yaadgurung90@gmail.com |   |
+EDUCATION
+Sikkim Institute of Science and Technology, Sikkim University  | Chisopani, Namchi, Sikkim      2022-2026
+B.Tech. in Computer Engineering  | CGPA: 8.7/10.0
+Sir Tashi Namgyal Senior Secondary School (+2) | Percentage : 80.2%
+Prashanti Vidhya Mandir Secondary School | Percentage : 81.6%
+TECHNICAL SKILLS
+Languages: C/C++, Python, Java, C#, JavaScript, TypeScript, Kotlin
+Tools and Frameworks: Django, Angular, ASP.NET, FastAPI, PyTorch, PostgreSQL, Express.js, Node.js, Docker, AWS, Git, Android Studio, Unity.
+RELEVANT EXPERIENCE
+National Informatics Centre (NIC)| Gangtok, Sikkim 2023-  2024
+SDE Intern
+Modernized the official Sikkim Handicrafts website using ASP.NET.
+Built backend modules and RESTful APIs for an Excise Department application using Django and PostgreSQL.
+Integrated Angular frontend components with Django services for government web apps.
+Department of Information Technology, Govt. of Sikkim | Gangtok, SikkimJan 2026
+SDE Intern
+Developed a multi-departmental SDC ticket management application using Angular, Django, PostgreSQL
+Implemented ticket lifecycle management, dashboards, RBAC, and full-stack integration to streamline resolution workflows.
+PROJECTS
+Hybrid Gurung POS Tagging & Dependency Parsing  | Python, PyTorch, CUDA, FastAPI, Angular
+Developed a hybrid NLP model combining rule-based methods, BiLSTM-CRF POS tagging, and biaffine dependency parsing for the Gurung language
+Created a custom annotated dataset and built a FastAPI-Angular web application for model inference and visualization, achieving 83% POS accuracy and 91% LAS
+AI-Powered WhatsApp Bot- Yaadobot | Node.js, Express.js, Baileys, Docker, AWS
+Built a real-time WhatsApp bot integrating LLM-powered interactions, gamification systems, and a web dashboard.
+Implemented secure authentication, state management, and containerized deployment on AWS EC2 using Docker and PM2.
+Audibit – 8D Audio Player & Downloader  | Kotlin, Media3, FFMPEG, C++
+Developed an Android music player featuring a custom real-time 8D spatial audio engine by extending Media3's audio pipeline with DSP-based audio processing.
+Integrated native yt-dlp, aria2c, and FFMPEG binaries for offline music downloading and processing, alongside a retro-inspired UI and home-screen widget.
+LEADERSHIP EXPERIENCE
+Science Club President (Metorite) | Sikkim Institute of Science and Technology• Led technical events, workshops, and student engagement initiatives across the institute.
+Student Council Member (Cultural Secretary)  | Sikkim Institute of Science and Technology•Organized the annual cultural festival and multiple cultural programs, managing event planning and execution.

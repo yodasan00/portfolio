@@ -1,0 +1,116 @@
+@custom-media --h-small (max-height: 700px);
+
+:root {
+
+  /* Deep Earthy Charcoal & Dark Botanical Palette */
+  --dark-800: rgb(18, 20, 16);
+  --dark-700: rgb(28, 32, 24);
+  --dark-600: rgb(42, 48, 36);
+  --dark-500: rgb(64, 72, 54);
+
+  /* Primary Accent: Sage Green (matches "Portfolio" in logo) */
+  --blue-900: rgb(24, 32, 22);
+  --blue-700: rgb(58, 80, 48);
+  --blue-500: rgb(147, 156, 104);
+  --blue-400: rgb(168, 178, 124);
+  --blue-300: rgb(194, 204, 154);
+
+  /* Botanical Forest Green Tokens */
+  --green-700: rgb(48, 72, 40);
+  --green-500: rgb(122, 146, 92);
+  --green-300: rgb(168, 192, 138);
+
+  /* Earthy Parchment & Text Tokens */
+  --gray-700: rgb(75, 70, 58);
+  --gray-600: rgb(105, 98, 84);
+  --gray-500: rgb(155, 145, 126);
+  --gray-400: rgb(190, 180, 162);
+  --gray-300: rgb(242, 234, 218);
+
+  /* Accent Muted Terracotta Tokens */
+  --rose-900: rgb(65, 30, 26);
+  --rose-700: rgb(118, 58, 44);
+  --rose-500: rgb(176, 98, 74);
+  --rose-300: rgb(222, 162, 142);
+
+  /* Secondary Accent: Warm Beige & Sand (matches "Yaado" in logo) */
+  --warm-700: rgb(135, 105, 65);
+  --warm-500: rgb(200, 162, 110);
+  --warm-300: rgb(220, 187, 135);
+  --warm-100: rgb(250, 244, 232);
+
+
+  --font-tiny: "Pixelify Sans", sans-serif;
+
+
+  --text-xs: 0.75rem;
+
+  --text-lg: 0.875rem;
+
+  --text-base: 1rem;
+
+  --text-md: 1.125rem;
+
+  --text-lg: 1.25rem;
+
+  --text-xl: 1.5rem;
+
+  --text-2xl: 1.875rem;
+
+  --text-3xl: 2.25rem;
+
+
+
+
+  --space-0: 0;
+  --space-1: 0.25rem;
+
+  --space-2: 0.5rem;
+
+  --space-3: 0.75rem;
+
+  --space-4: 1rem;
+
+  --space-5: 1.25rem;
+
+  --space-6: 1.5rem;
+
+  --space-8: 2rem;
+
+  --space-10: 2.5rem;
+
+  --space-12: 3rem;
+
+  --space-16: 4rem;
+
+
+
+  --duration-instant: 0ms;
+  --duration-fast: 100ms;
+  --duration-normal: 200ms;
+  --duration-slow: 300ms;
+  --duration-slower: 500ms;
+
+
+  --ease-default: ease;
+  --ease-in: ease-in;
+  --ease-out: ease-out;
+  --ease-in-out: ease-in-out;
+  --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+
+  --border-thin: 1px;
+  --border-medium: 2px;
+  --border-thick: 4px;
+
+
+  --z-base: 0;
+  --z-desktop-icons: 10;
+  --z-window: 20;
+  --z-window-active: 30;
+  --z-taskbar: 40;
+  --z-overlay: 50;
+  --z-modal: 100;
+  --z-cursor: 9999;
+  --z-crt: 10000;
+}
