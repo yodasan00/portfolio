@@ -160,6 +160,9 @@ export const Google = () => {
                 <p>
                   GitHub: <a href="https://github.com/yodasan00" className="google-nav-link" target="_blank" rel="noopener noreferrer">github.com/yodasan00</a>
                 </p>
+                <p>
+                  LinkedIn: <a href="https://www.linkedin.com/in/yaad-gurung-080398365?utm_source=share_via&utm_content=profile&utm_medium=member_android" className="google-nav-link" target="_blank" rel="noopener noreferrer">linkedin.com/in/yaad-gurung-080398365</a>
+                </p>
 
               </div>
 

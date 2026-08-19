@@ -217,7 +217,7 @@ export const StartMenu: React.FC<MenuProps> = ({
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/mewmewdevart/"
+                href="https://www.linkedin.com/in/yaad-gurung-080398365?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                 target="_blank"
                 rel="noopener noreferrer"
                 title={t('social_linkedin')}

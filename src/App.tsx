@@ -107,7 +107,7 @@ const App: React.FC = () => {
                         {systemState === 'login' && <LoginScreen onLogin={handleLogin} onCancel={handleReturnToGame} />}
                         {systemState === 'desktop' && <Desktop apps={AppRegistry} />}
                         {systemState === 'videogame' && <VideoGame onBack={handleVideoGameBack} />}
-                        {systemState === 'paper' && <PaperScreen />}
+                        {systemState === 'paper' && <PaperScreen onBack={() => setSystemState('game')} />}
                         {systemState === 'shutdown_transition' && <ShutdownScreen onReboot={() => setSystemState('boot')} />}
                       </Suspense>
                     </main>

@@ -14,9 +14,9 @@ export default defineConfig({
       registerType: 'prompt',
       includeAssets: ['favicon_io/favicon.ico', 'favicon_io/favicon-16x16.png', 'favicon_io/favicon-32x32.png', 'favicon_io/android-chrome-192x192.png', 'favicon_io/android-chrome-512x512.png'],
       manifest: {
-        name: 'Larissa Cristina Benedito | Portfolio',
-        short_name: 'MewPortfolio',
-        description: 'Front-End Software Engineer Portfolio showcasing accessibility, performance, and pixel-perfect interfaces in a Windows 95-style experience.',
+        name: 'Yaad Gurung | Portfolio',
+        short_name: 'YaadOS',
+        description: 'Software Developer portfolio of Yaad Gurung featuring YaadOS retro operating system.',
         theme_color: '#6b9acf',
         background_color: '#4e3161',
         display: 'standalone',

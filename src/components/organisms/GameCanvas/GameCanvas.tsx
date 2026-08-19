@@ -192,19 +192,20 @@ export const GameCanvas: React.FC<GameCanvasProps> = ({ onLoginRequest, onVideoG
               style={{ position: 'relative' }}
             >
               <button
-                className="absolute top-4 right-4 z-[60] text-(--gray-300) rounded-full p-2 transition-colors shadow-lg"
+                className="absolute top-2 right-2 sm:-top-3 sm:-right-3 z-[70] bg-(--dark-800) hover:bg-(--rose-600) text-(--gray-300) hover:text-white rounded-full w-12 h-12 flex items-center justify-center transition-all shadow-2xl border-2 border-(--gray-300) cursor-pointer"
                 onClick={() => {
                   playSfx('game_cancel');
                   setIsPaperScreenOpen(false);
                 }}
                 aria-label="Close Paper"
+                title="Close Paper"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <line x1="18" y1="6" x2="6" y2="18"></line>
                   <line x1="6" y1="6" x2="18" y2="18"></line>
                 </svg>
               </button>
-              <PaperFold />
+              <PaperFold onBack={() => setIsPaperScreenOpen(false)} />
             </div>
           </div>
         )}
