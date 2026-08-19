@@ -95,7 +95,7 @@ export const AppRegistry: AppDefinition[] = [
   // INTERNET & MEDIA
   {
     id: APP_IDS.EXPLORER,
-    title: 'Internet Explorer - yaadosan.co',
+    title: 'Internet Explorer',
     icon: internetExploreIcon,
     component: InternetExplorer,
     defaultSize: { width: 800, height: 600 },
@@ -104,7 +104,7 @@ export const AppRegistry: AppDefinition[] = [
   },
   {
     id: APP_IDS.GOOGLE,
-    title: 'Google Chrome - yaadosan.co',
+    title: 'Google Chrome',
     icon: googleIcon,
     component: Google,
     defaultSize: { width: 300, height: 500 },

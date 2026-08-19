@@ -35,11 +35,11 @@
 }
 
 .start-menu__item {
-  @apply h-12 w-46 justify-start gap-3 px-2 hover:text-(--gray-300);
+  @apply h-12 min-w-50 w-full justify-start gap-3 px-2 hover:text-(--gray-300) whitespace-nowrap;
 }
 
 .start-menu__label {
-  @apply flex-1 text-left text-lg;
+  @apply flex-1 text-left text-lg whitespace-nowrap;
 }
 
 .start-menu__icon,
@@ -53,7 +53,7 @@
 
 
 .start-menu__submenu {
-  @apply absolute md:left-full -bottom-40 md:min-w-50 p-1 flex-col md:border-t-4 md:border-l-4 md:border-t-(--gray-300) md:border-l-(--gray-300) md:border-r-4 md:border-b-4 md:border-b-(--dark-800) md:border-r-(--dark-800) z-10000 bg-(--gray-500) max-h-[calc(100vh-80px)] overflow-y-auto top-auto left-[50%] border-t-4 border-l-4 border-t-(--gray-300) border-l-(--gray-300) border-r-4 border-b-4 border-b-(--dark-800) border-r-(--dark-800);
+  @apply absolute md:left-full -bottom-20 min-w-56 p-1 flex-col z-10000 bg-(--gray-500) max-h-[calc(100vh-80px)] overflow-y-auto border-4 border-t-(--gray-300) border-l-(--gray-300) border-r-(--dark-800) border-b-(--dark-800) shadow-2xl;
 }
 
 

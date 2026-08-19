@@ -108,7 +108,7 @@ export const StartMenu: React.FC<StartMenuProps> = ({ onClose, apps }) => {
     >
       <aside className="start-menu__sidebar" aria-hidden="true">
         <span className="start-menu__sidebar-text">
-          <span className="start-menu__brand-name">Windows</span>95
+          <span className="start-menu__brand-name">Yaad</span>OS
         </span>
       </aside>
 
