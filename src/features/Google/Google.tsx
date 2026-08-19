@@ -5,7 +5,7 @@ import './Google.css';
 
 export const Google = () => {
   const { t } = useTranslation();
-  const FAKE_URL = 'http://mewmewdevart.com';
+  const FAKE_URL = 'http://yaadosan.co';
 
   const [inputUrl, setInputUrl] = useState(FAKE_URL);
   const [loading, setLoading] = useState(true);

@@ -13,7 +13,7 @@ import './InternetExplorer.css';
 
 export const InternetExplorer = () => {
   const { t } = useTranslation();
-  const FAKE_URL = 'http://mewmewdevart.com';
+  const FAKE_URL = 'http://yaadosan.co';
 
   const [inputUrl, setInputUrl] = useState(FAKE_URL);
   const [loading, setLoading] = useState(true);
@@ -132,7 +132,7 @@ export const InternetExplorer = () => {
               <div className="ie-page-header">
                 <span className="ie-page-welcome">{t('welcome_to')}</span>
                 <h1 className="ie-page-title">
-                  Larissa Cristina Benedito
+                  Yaad Gurung
                 </h1>
                 <p className="ie-page-subtitle">{t('frontend_portfolio')}</p>
               </div>
